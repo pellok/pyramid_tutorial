@@ -1,0 +1,8 @@
+decorators (classdef | funcdef)
+
+class methods
+static methods
+reference to super classes
+
+What does the dot in .views signify?
+Why might assertIn be a better choice in testing the text in responses than assertEqual?
