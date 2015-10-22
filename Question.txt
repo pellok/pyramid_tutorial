@@ -6,3 +6,8 @@ reference to super classes
 
 What does the dot in .views signify?
 Why might assertIn be a better choice in testing the text in responses than assertEqual?
+
+We used config.include which is an imperative configuration to get the Configurator to load pyramid_jinja2's configuration. What is another way could include it into the config?
+
+
+There is also a request.static_path API. How does this differ from request.static_url?
