@@ -11,3 +11,7 @@ We used config.include which is an imperative configuration to get the Configura
 
 
 There is also a request.static_path API. How does this differ from request.static_url?
+
+We used Python @property on full_name. If we reference this many times in a template or view code, it would re-compute this every time. Does Pyramid provide something that will cache the initial computation on a property?
+
+There is also a request.route_path API. How does this differ from request.route_url?
